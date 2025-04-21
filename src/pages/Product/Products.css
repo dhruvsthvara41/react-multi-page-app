@@ -1,0 +1,53 @@
+/* Center align dropdown */
+.h2{
+  margin: 100px;
+}
+.category-dropdown {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* Style for product cards */
+.product-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Product image styling */
+.product-image {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Price text */
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Make buttons full width */
+.btn-block {
+  width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .product-image {
+    height: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .product-image {
+    height: 180px;
+  }
+}

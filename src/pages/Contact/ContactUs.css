@@ -1,0 +1,48 @@
+
+
+.h2{
+  margin-top: 100px;
+}
+
+.contact-info {
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+
+.contact-form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.contact-form input,
+.contact-form textarea {
+  border-radius: 5px;
+}
+
+
+.contact-form button {
+  border-radius: 5px;
+}
+
+
+@media (max-width: 768px) {
+  .contact-info,
+  .contact-form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-form textarea {
+    height: 120px;
+  }
+
+  .contact-form button {
+    font-size: 16px;
+    padding: 10px;
+  }
+}

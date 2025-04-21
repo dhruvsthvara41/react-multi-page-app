@@ -1,0 +1,53 @@
+/* General styling for posts container */
+.posts-container {
+  /* max-width: 800px; */
+  margin: 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styling for the posts list */
+.posts-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Individual post items */
+.posts-list li {
+  background: #f8f9fa;
+  margin: 10px 0;
+  padding: 12px 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.posts-list li:hover {
+  transform: scale(1.02);
+  background: #e9ecef;
+}
+
+/* Post links */
+.posts-list li a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  display: block;
+}
+
+.posts-list li a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .posts-container {
+    padding: 10px;
+  }
+
+  .posts-list li {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
