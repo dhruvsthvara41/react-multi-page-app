@@ -1,5 +1,10 @@
 # React Multi-Page App with Vite
 
+## 🚀 Live Demo
+
+Check out the live site here:  
+🔗 [Live Demo](https://react-multi-page-app-two.vercel.app)
+
 This project is a **multi-page React application** built using [Vite](https://vitejs.dev/). It supports **fast refresh**, **dynamic routing**, and uses a modular folder structure for scalable frontend development.
 
 ## 🛠️ Tech Stack
